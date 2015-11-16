@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF875131BF9D62F00CADA76 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF875111BF9D62F00CADA76 /* ActionViewController.m */; };
+		3AF875141BF9D62F00CADA76 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF875121BF9D62F00CADA76 /* ActionViewController.xib */; };
 		3AFD96E61BF9C7A4006EB400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD96E51BF9C7A4006EB400 /* main.m */; };
 		3AFD96E91BF9C7A4006EB400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD96E81BF9C7A4006EB400 /* AppDelegate.m */; };
 		3AFD96EC1BF9C7A4006EB400 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD96EB1BF9C7A4006EB400 /* ViewController.m */; };
@@ -15,6 +17,10 @@
 		3AFD96F41BF9C7A4006EB400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD96F21BF9C7A4006EB400 /* LaunchScreen.storyboard */; };
 		3AFD96FF1BF9C7A4006EB400 /* GHTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD96FE1BF9C7A4006EB400 /* GHTouchDemoTests.m */; };
 		3AFD970A1BF9C7A4006EB400 /* GHTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD97091BF9C7A4006EB400 /* GHTouchDemoUITests.m */; };
+		3AFD971A1BF9CA65006EB400 /* ActionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD97181BF9CA65006EB400 /* ActionOneViewController.m */; };
+		3AFD971B1BF9CA65006EB400 /* ActionOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD97191BF9CA65006EB400 /* ActionOneViewController.xib */; };
+		3AFD971F1BF9CA74006EB400 /* ActionTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD971D1BF9CA74006EB400 /* ActionTwoViewController.m */; };
+		3AFD97201BF9CA74006EB400 /* ActionTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD971E1BF9CA74006EB400 /* ActionTwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AF875101BF9D62F00CADA76 /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		3AF875111BF9D62F00CADA76 /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		3AF875121BF9D62F00CADA76 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
 		3AFD96E11BF9C7A4006EB400 /* GHTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD96E51BF9C7A4006EB400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AFD96E71BF9C7A4006EB400 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		3AFD97051BF9C7A4006EB400 /* GHTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD97091BF9C7A4006EB400 /* GHTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHTouchDemoUITests.m; sourceTree = "<group>"; };
 		3AFD970B1BF9C7A4006EB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFD97171BF9CA65006EB400 /* ActionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionOneViewController.h; sourceTree = "<group>"; };
+		3AFD97181BF9CA65006EB400 /* ActionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionOneViewController.m; sourceTree = "<group>"; };
+		3AFD97191BF9CA65006EB400 /* ActionOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionOneViewController.xib; sourceTree = "<group>"; };
+		3AFD971C1BF9CA74006EB400 /* ActionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTwoViewController.h; sourceTree = "<group>"; };
+		3AFD971D1BF9CA74006EB400 /* ActionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionTwoViewController.m; sourceTree = "<group>"; };
+		3AFD971E1BF9CA74006EB400 /* ActionTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionTwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,15 @@
 				3AFD96E81BF9C7A4006EB400 /* AppDelegate.m */,
 				3AFD96EA1BF9C7A4006EB400 /* ViewController.h */,
 				3AFD96EB1BF9C7A4006EB400 /* ViewController.m */,
+				3AFD97171BF9CA65006EB400 /* ActionOneViewController.h */,
+				3AFD97181BF9CA65006EB400 /* ActionOneViewController.m */,
+				3AFD97191BF9CA65006EB400 /* ActionOneViewController.xib */,
+				3AFD971C1BF9CA74006EB400 /* ActionTwoViewController.h */,
+				3AFD971D1BF9CA74006EB400 /* ActionTwoViewController.m */,
+				3AFD971E1BF9CA74006EB400 /* ActionTwoViewController.xib */,
+				3AF875101BF9D62F00CADA76 /* ActionViewController.h */,
+				3AF875111BF9D62F00CADA76 /* ActionViewController.m */,
+				3AF875121BF9D62F00CADA76 /* ActionViewController.xib */,
 				3AFD96ED1BF9C7A4006EB400 /* Main.storyboard */,
 				3AFD96F01BF9C7A4006EB400 /* Assets.xcassets */,
 				3AFD96F21BF9C7A4006EB400 /* LaunchScreen.storyboard */,
@@ -207,6 +231,7 @@
 				TargetAttributes = {
 					3AFD96E01BF9C7A4006EB400 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3S768E7VNZ;
 					};
 					3AFD96F91BF9C7A4006EB400 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -245,7 +270,10 @@
 			files = (
 				3AFD96F41BF9C7A4006EB400 /* LaunchScreen.storyboard in Resources */,
 				3AFD96F11BF9C7A4006EB400 /* Assets.xcassets in Resources */,
+				3AF875141BF9D62F00CADA76 /* ActionViewController.xib in Resources */,
+				3AFD97201BF9CA74006EB400 /* ActionTwoViewController.xib in Resources */,
 				3AFD96EF1BF9C7A4006EB400 /* Main.storyboard in Resources */,
+				3AFD971B1BF9CA65006EB400 /* ActionOneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +301,9 @@
 				3AFD96EC1BF9C7A4006EB400 /* ViewController.m in Sources */,
 				3AFD96E91BF9C7A4006EB400 /* AppDelegate.m in Sources */,
 				3AFD96E61BF9C7A4006EB400 /* main.m in Sources */,
+				3AFD971F1BF9CA74006EB400 /* ActionTwoViewController.m in Sources */,
+				3AF875131BF9D62F00CADA76 /* ActionViewController.m in Sources */,
+				3AFD971A1BF9CA65006EB400 /* ActionOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = GHTouchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.koalac.GHTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koalac.KoalaKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bc0a118-bd5f-4596-a843-8d17f3dfb701";
 			};
 			name = Debug;
 		};
@@ -422,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = GHTouchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.koalac.GHTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koalac.KoalaKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bc0a118-bd5f-4596-a843-8d17f3dfb701";
 			};
 			name = Release;
 		};
@@ -496,6 +533,7 @@
 				3AFD97101BF9C7A4006EB400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFD97111BF9C7A4006EB400 /* Build configuration list for PBXNativeTarget "GHTouchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +542,7 @@
 				3AFD97131BF9C7A4006EB400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFD97141BF9C7A4006EB400 /* Build configuration list for PBXNativeTarget "GHTouchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +551,7 @@
 				3AFD97161BF9C7A4006EB400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

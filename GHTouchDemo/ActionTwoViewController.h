@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ActionTwoViewController.h
 //  GHTouchDemo
 //
 //  Created by sally on 15/11/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ActionTwoViewController : UIViewController
 
 @end
-

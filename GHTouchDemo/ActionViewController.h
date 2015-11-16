@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ActionViewController.h
 //  GHTouchDemo
 //
 //  Created by sally on 15/11/16.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ActionViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, assign) NSInteger index;
 
 @end
-

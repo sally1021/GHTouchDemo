@@ -1,7 +1,7 @@
 //
 //  AppDelegate.m
 //  GHTouchDemo
-//
+//  详解请参见http://wgh.me/archives/273
 //  Created by sally on 15/11/16.
 //  Copyright © 2015年 koalac. All rights reserved.
 //
@@ -16,30 +16,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  //通过代码动态创建shortcutItems
+  //[self createShortCutItems];
+  
+  //是否从shortCutItem进入的app
+  if (launchOptions[@"UIApplicationLaunchOptionsShortcutItemKey"] == nil) {
+    return YES;
+  } else {
+    return NO;
+  }
   return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-  // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-  // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+#pragma mark 创建shortcutItems
+- (void)createShortCutItems {
+  NSMutableArray *shortcutItems = [NSMutableArray array];
+  UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"1" localizedTitle:@"ShortCutItem1"];
+  UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"2" localizedTitle:@"ShortCutItem2"];
+  [shortcutItems addObject:item1];
+  [shortcutItems addObject:item2];
+  [[UIApplication sharedApplication] setShortcutItems:shortcutItems];
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-  // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-  // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-  // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-  // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-  // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+#pragma mark 点击shortcutItem响应事件
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler {
+  //通过通知传递type，收到通知的页面做响应的处理
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"Notice3DTouch" object:self userInfo:@{ @"type" : shortcutItem.type }];
 }
 
 @end

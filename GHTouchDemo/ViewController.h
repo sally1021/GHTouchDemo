@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#define IOS_VERSION  [[[UIDevice currentDevice] systemVersion] floatValue]
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define CELL_IDENTIFIER @"Cell"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIViewControllerPreviewingDelegate>
 
 @end
 
